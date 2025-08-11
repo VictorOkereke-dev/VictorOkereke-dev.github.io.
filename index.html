@@ -1,39 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Victor Okereke Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Victor | Full Stack Developer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <h1>Victor Okereke</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>Hello! I'm Victor, a passionate developer learning C# and building cool projects with Microsoft Copilot.</p>
-            <img src="profile.jpg" alt="Victor smiling at a desk" width="200">
-        </section>
+  <!-- Header -->
+  <header>
+    <div class="green-line"></div>
+    <div class="menu-icon">&#9776;</div>
+  </header>
 
-        <section id="projects">
-            <h2>Projects</h2>
-            <ul>
-                <li>📚 Library Management System</li>
-                <li>🎓 Student Grade Management System</li>
-            </ul>
-        </section>
+  <!-- Hero Section -->
+  <section id="hero">
+    <h1>Hi, I'm <span>Victor</span></h1>
+    <p>A full-stack developer based in Enugu</p>
+    <a href="#portfolio" class="btn">View My Work</a>
+  </section>
 
-        <section id="contact">
+  <!-- About Section -->
+  <section id="about">
+    <h2>ABOUT ME</h2>
+    <p>
+      I am passionate about building web applications. With expertise in both front-end and back-end development, I create seamless and scalable solutions.
+    </p>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio">
+    <h2>MY WORK</h2>
+    <div class="portfolio-grid">
+      <!-- Add your project cards here -->
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>CONTACT</h2>
+    <p>Let’s build something amazing together.</p>
+    <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Victor. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
             <h2>Contact</h2>
             <p>Email: victor@example.com</p>
             <button onclick="showMessage()">Say Hello</button>
